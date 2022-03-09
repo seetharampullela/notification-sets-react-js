@@ -1,0 +1,79 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: content-box;
+}
+
+.bgContainer {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.notice1 {
+  background-color: #0b69ff;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+.notice2 {
+  background-color: #2dca73;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+.notice3 {
+  background-color: #ffb800;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+.notice4 {
+  background-color: #ff0b37;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+
+.heading {
+  color: black;
+  text-align: center;
+}
+img {
+  width: 5%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+  p {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .heading {
+    font-size: 32px;
+  }
+  p {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+}
